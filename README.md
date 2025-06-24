@@ -1,4 +1,4 @@
-# crosslanguage_bug_detection
+# Cross-Language Bug Detection
 This repository contains the code and datasets used in the experiments of our research paper—`Fine-Tuning Code Language Models to Detect Cross-Language Bugs`. It serves as a replication package to facilitate the reproduction of the results presented in the paper.
 
 ## Structure of the Repository
