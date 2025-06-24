@@ -16,7 +16,7 @@ This folder contains the scripts used in our experiments. Below are details of t
 - `RQ1`: Contains fine-tuning and testing scripts for 13 Code Language Models (CodeLMs).
 - `RQ2`: Contains two subfolders (`codenet` and `cvefixes`) for fine-tuning and testing scripts related to CodeNet and CVEFixes datasets.
 - `RQ3`: Contains two subfolders (`datasetSize` and `tokenLength`) for analyzing the impact of dataset size and token sequence length on CodeLMs. Each subfolder includes fine-tuning and testing scripts.
-- `RQ4`: Does not contain separate scripts, as it uses the same scripts as the RQ1 folder. You can modify the shell commands to run experiments for RQ4.
+- `RQ4`: It uses the same scripts as the RQ1 folder. You can modify the shell commands to run experiments for RQ4.
 
 ### requirements files
 - `requirements_4090D.txt`: Python packages for RTX 4090D GPU environment
