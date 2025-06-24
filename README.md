@@ -46,7 +46,7 @@ Below is an example of fine-tuning the CodeBERT model for RQ1:
 python codebert.py \
     --model_name "codebert" \
     --model_path "../models/codebert-base" \
-    --train_file "../datasets/cross-language_datasets_with_comments.csv" \
+    --train_file "../datasets/cross-language_datasets_without_comments.csv" \
     --dataset_type "no_comments" \
     --max_seq_length 512 \
     --batch_size 16 \
@@ -67,7 +67,7 @@ python test_codebert.py \
     --model_name "codebert" \
     --model_path "output/" \
     --test_model "epoch_10" \
-    --data_path "../datasets/cross-language_datasets_with_comments.csv" \
+    --data_path "../datasets/cross-language_datasets_without_comments.csv" \
     --dataset_type "no_comments" \
     --max_seq_length 512 \
     --batch_size 8 \
